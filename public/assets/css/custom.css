@@ -1,0 +1,38 @@
+/* Custom Header Style */
+.custom-header {
+    background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+    color: #fff;
+    padding: 10px 0;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.custom-header .navbar-brand,
+.custom-header .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+}
+
+.custom-header .nav-link:hover {
+    color: #ffe082 !important;
+}
+
+/* Matching Footer Style */
+.custom-footer {
+    background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.custom-footer .footer-link {
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.custom-footer .footer-link:hover {
+    color: #ffe082;
+}
+
